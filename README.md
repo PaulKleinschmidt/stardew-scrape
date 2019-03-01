@@ -5,17 +5,19 @@ This script lets you do quick comparisons of items to character gifts. I made th
 
 #### How to use
 
-Install beautifulsoup4 and requests
+Install the beautifulsoup4 and requests libraries
 
-`> pip install requests`
-`> pip install beautifulsoup4`
+```
+> pip install requests
+> pip install beautifulsoup4
+```
 
 Pick an item and a character from Stardew Valley, and run:
 
 `python scrape.py <Character> <Item>`
 
-example `python scrape.py Leah Wine`
+example: `python scrape.py Leah Wine`
 
-`>Leah Loves Wine`
+result: `>Leah Loves Wine`
 
 Amazing.
